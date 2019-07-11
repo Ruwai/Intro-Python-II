@@ -1,4 +1,4 @@
-from room import Room
+lfrom room import Room
 from player import Player
 from item import Item
 
@@ -36,13 +36,13 @@ room['treasure'].s_to = room['narrow']
 #
 # Items
 #
-room['foyer'].add_item(Item('torch', 'Helps you find the way in dark'))
-room['foyer'].add_item(Item('mask', 'Saves you from dust'))
-room['overlook'].add_item(Item('binocular', 'See far away objects'))
-room['narrow'].add_item(Item('shoes', 'For better grip on narrow ledges'))
-room['treasure'].add_item(Item('box', 'Empty gold box'))
-room['treasure'].add_item(Item('map', 'Map to next gold hunt adventure'))
-
+room['foyer'].add_item(Item('torch', 'Light up your night in the darkness with no light'))
+room['foyer'].add_item(Item('empty-bag', 'Like a plastic bag drifting through the wind...'))
+room['overlook'].add_item(Item('shovel', 'I\'ll dig you out of any situation, you are mine until the end of time'))
+room['narrow'].add_item(Item('incense', 'Wonder what this is doing here. In a place so narrow as narrow deep.'))
+room['treasure'].add_item(Item('box', 'Fill it with the memories of you and me together in a place where we might go insane'))
+room['treasure'].add_item(Item('blanket', 'Wrap me around you like a burrito'))
+room['treasure'].add_item(Item('ukele', 'My love you used to play the ukele so often, but now you\'re 6 feet under in a coffin'))
 #
 # Main
 #
